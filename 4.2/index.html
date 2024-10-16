@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление постами</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Управление постами</h1>
+
+    <div class="form-container">
+        <h2>Создать новый пост</h2>
+        <form id="createPostForm">
+            <input type="text" id="title" placeholder="Заголовок" required>
+            <input type="text" id="body" placeholder="Текст поста" required>
+            <button type="submit">Добавить пост</button>
+        </form>
+    </div>
+
+  
+    <div id="postsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
